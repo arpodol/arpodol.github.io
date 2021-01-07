@@ -2407,7 +2407,16 @@ input, select, textarea {
 		}
 
 /* Image */
+  #headshot {
+    margin: 7em 0 0 0;
+    width: 100%;
 
+  }
+  #headshot img {
+    border-radius: 100%;
+    margin-left:auto;
+    margin-right:auto;
+  }
 	.image {
 		border-radius: 5px;
 		border: 0;
@@ -2460,6 +2469,10 @@ input, select, textarea {
 				width: 100%;
 			}
 
+    .image.medium img{
+
+			width: 45%;
+    }
 /* List */
 
 	ol {
@@ -2634,7 +2647,13 @@ input, select, textarea {
 		}
 
 /* Icons */
-
+  #icons{
+    display: block;
+    position: absolute;
+    right: 3em;
+    top: 0.7em;
+    z-index: 30;
+  }
 	ul.icons {
 		cursor: default;
 		list-style: none;
@@ -2651,7 +2670,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				font-size: 1.25em;
+				font-size: 2.25em;
 			}
 
 /* Contact */
@@ -3074,7 +3093,7 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
 		background-color: rgba(53, 56, 73, 0.95);
-		height: 3.5em;
+		height: 4em;
 		left: 0;
 		line-height: 3.5em;
 		padding: 0 1.25em;
@@ -3090,7 +3109,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.2s ease-in-out, visibility 0.2s;
 			transition: opacity 0.2s ease-in-out, visibility 0.2s;
 			border-bottom: 0;
-			font-size: 0.8em;
+			font-size: 1.8em;
 			margin-bottom: 0;
 			opacity: 1;
 			visibility: visible;
@@ -3375,7 +3394,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		padding: 10em 0 4.75em 0 ;
+		padding: 0 0 4em 0 ;
 	}
 
 		#banner .inner {
@@ -3430,6 +3449,7 @@ input, select, textarea {
 			font-size: 2.25em;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
+      text-align: center;
 		}
 
 		#banner p {
