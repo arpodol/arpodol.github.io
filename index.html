@@ -1,99 +1,100 @@
 <!DOCTYPE html>
 <!--
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-  Starfield by Slawomir Chodnicki https://medium.com/better-programming/fun-with-html-canvas-lets-create-a-star-field-a46b0fed5002
+Solid State by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Starfield by Slawomir Chodnicki https://medium.com/better-programming/fun-with-html-canvas-lets-create-a-star-field-a46b0fed5002
 -->
 <html>
-  <head>
-    <title>Aram Podolski</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript
-      ><link rel="stylesheet" href="assets/css/noscript.css"
-    /></noscript>
-  </head>
-  <body class="is-preload">
-    <!-- Page Wrapper -->
-    <div id="page-wrapper">
-      <!-- Header -->
-      <header id="header" class="alt">
-        <h1><a href="#">Aram</a></h1>
-        <ul class="icons" id="icons">
-          <li><a href="assets/files/aramResume.pdf" class="icon solid fa-file"><span class="label">Resume</span></a></li>
-          <li><a href="https://www.linkedin.com/in/arampo/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-          <li><a href="mailto:aram.podolski@protonmail.com" class="icon solid fa-envelope "><span class="label">envelope</span></a></li>
-          <li><a href="https://github.com/arpodol" class="icon brands fa-github"><span class="label">Github</span></a></li>
-        </ul>
-      </header>
-      <canvas
-      id="canvas"></canvas>
-      <!-- Banner -->
-      <section id="banner">
+<head>
+  <title>Aram Podolski</title>
+  <meta charset="utf-8" />
+  <meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, user-scalable=no"
+  />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript
+  ><link rel="stylesheet" href="assets/css/noscript.css"
+  /></noscript>
+  <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico"/>
+</head>
+<body class="is-preload">
+  <!-- Page Wrapper -->
+  <div id="page-wrapper">
+    <!-- Header -->
+    <header id="header" class="alt">
+      <h1><a href="#">Aram</a></h1>
+      <ul class="icons" id="icons">
+        <li><a href="assets/files/aramResume.pdf" class="icon solid fa-file"><span class="label">Resume</span></a></li>
+        <li><a href="https://www.linkedin.com/in/arampo/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+        <li><a href="mailto:aram.podolski@protonmail.com" class="icon solid fa-envelope "><span class="label">envelope</span></a></li>
+        <li><a href="https://github.com/arpodol" class="icon brands fa-github"><span class="label">Github</span></a></li>
+      </ul>
+    </header>
+    <canvas
+    id="canvas"></canvas>
+    <!-- Banner -->
+    <section id="banner">
 
 
+      <div class="inner">
+        <a href="#" class="image medium" id="headshot"
+        ><img src="images/aram.jpg" alt=""
+        /></a>
+        <h2>Aram Podolski</h2>
+        <p>
+          I am a software engineer based in Denver, Colorado. I am comfortable with backend, front end and all things AWS. I am the co-creator of Haven, a centralized secrets manager for small teams. Previously, I worked as a flight software engineer for the Orion space program.
+        </p>
+      </div>
+    </section>
+
+    <!-- Wrapper -->
+    <section id="wrapper">
+      <!-- One -->
+      <section id="one" class="wrapper spotlight style1">
         <div class="inner">
-          <a href="#" class="image medium" id="headshot"
-            ><img src="images/aram.jpg" alt=""
-          /></a>
-          <h2>Aram Podolski</h2>
-          <p>
-            I am a software engineer based in Denver, Colorado. I am comfortable with backend, front end and all things AWS. I am the co-creator of Haven, a centralized secrets manager for small teams. Previously, I worked as a flight software engineer for the Orion space program.
-          </p>
+          <a href="#" class="image"><img src="images/HavenLogo.png" alt="" /></a>
+          <div class="content">
+            <h2 class="major">Haven</h2>
+            <p>
+              Haven is an open-source, centralized secrets manager that protects your application secrets through a combination of encryption, access control, and injection-at-runtime.
+              Built using node.JS and Amazon Web Services, it is easy to setup and intergrate with your Node applications.
+            </p>
+            <p>
+              For the developer, Haven provides both a UI and CLI to abstract away the pain of using a secrets manager. For the application, Haven injects secrets at runtime and redacts secrets from accidently getting logged to your logs.
+            </p>
+            <a href="https://haven-secrets.github.io/case-study" class="button">Read The Case Study</a>
+            <a href="https://github.com/haven-secrets" class="button">Code</a>
+          </div>
         </div>
       </section>
 
-      <!-- Wrapper -->
-      <section id="wrapper">
-        <!-- One -->
-        <section id="one" class="wrapper spotlight style1">
-          <div class="inner">
-            <a href="#" class="image"><img src="images/HavenLogo.png" alt="" /></a>
-            <div class="content">
-              <h2 class="major">Haven</h2>
-              <p>
-                Haven is an open-source, centralized secrets manager that protects your application secrets through a combination of encryption, access control, and injection-at-runtime.
-                Built using node.JS and Amazon Web Services, it is easy to setup and intergrate with your Node applications.
-              </p>
-              <p>
-                For the developer, Haven provides both a UI and CLI to abstract away the pain of using a secrets manager. For the application, Haven injects secrets at runtime and redacts secrets from accidently getting logged to your logs.
-              </p>
-              <a href="https://haven-secrets.github.io/case-study" class="button">Case Study</a>
-              <a href="https://github.com/haven-secrets" class="button">Code</a>
-            </div>
+      <!-- Two -->
+      <section id="two" class="wrapper alt spotlight style2">
+        <div class="inner">
+          <a href="#" class="image"><img src="images/Ello.png" alt="" /></a>
+          <div class="content">
+            <h2 class="major">Swello</h2>
+            <p>
+              Trello-like application with drag-and-drop capability built using Ruby on Rails, React and Redux.
+            </p>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <!-- Two -->
-        <section id="two" class="wrapper alt spotlight style2">
-          <div class="inner">
-            <a href="#" class="image"><img src="images/Ello.png" alt="" /></a>
-            <div class="content">
-              <h2 class="major">Swello</h2>
-              <p>
-                Trello-like application with drag-and-drop capability built using Ruby on Rails, React and Redux.
-              </p>
-            </div>
+      <!-- Three -->
+      <section id="three" class="wrapper spotlight style3">
+        <div class="inner">
+          <a href="#" class="image"><img src="images/Routes.png" alt="" /></a>
+          <div class="content">
+            <h2 class="major">Airline Routes</h2>
+            <p>
+              Application that displays airline routes and allows for filtering on map. Built using Javascript and React.
+            </p>
           </div>
-        </section>
-
-        <!-- Three -->
-        <section id="three" class="wrapper spotlight style3">
-          <div class="inner">
-            <a href="#" class="image"><img src="images/Routes.png" alt="" /></a>
-            <div class="content">
-              <h2 class="major">Airline Routes</h2>
-              <p>
-                Application that displays airline routes and allows for filtering on map. Built using Javascript and React.
-              </p>
-            </div>
-          </div>
-        </section>
+        </div>
+      </section>
 
 
 
@@ -117,4 +118,4 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/starfield.js"></script>
   </body>
-</html>
+  </html>
