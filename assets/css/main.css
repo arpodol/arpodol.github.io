@@ -179,7 +179,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff !important;
+			color: #2B3140 !important;
 		}
 
 		a.special:not(.button) {
@@ -272,7 +272,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.2em;
+		font-size: 1.6em;
 	}
 
 	h3 {
@@ -2080,12 +2080,54 @@ input, select, textarea {
 						}
 
 		}
+/* Star Canvas */
+
+canvas {
+  width: 100%;
+  height: 200%;
+  padding: 0;
+  margin: 0;
+  position:absolute;
+}
 
 /* Section/Article */
 
 	section.special, article.special {
 		text-align: center;
 	}
+/* Haven Section */
+  section#one p {
+    color: #000000;
+  }
+
+  section#one h2 {
+    color: #000000;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.125);
+    font-size: 2em;
+  }
+
+  section#one .inner {
+    padding-top: 0;
+  }
+
+  section#one .special {
+    color: #000000;
+  }
+
+  section#one .button {
+    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.125);
+  }
+
+  section#one .button:hover {
+    background-color: rgba(69, 85, 141, 0.125);
+  }
+
+  section#one .button:active {
+    background-color: rgba(69, 85, 141, 0.175);
+  }
+
+
+
 
 /* Form */
 
@@ -2408,8 +2450,9 @@ input, select, textarea {
 
 /* Image */
   #headshot {
-    margin: 7em 0 0 0;
+    margin: 5em 0 0 0;
     width: 100%;
+
 
   }
   #headshot img {
@@ -2650,8 +2693,8 @@ input, select, textarea {
   #icons{
     display: block;
     position: absolute;
-    right: 3em;
-    top: 0.7em;
+    right: 1.5em;
+    top: .2em;
     z-index: 30;
   }
 	ul.icons {
@@ -2883,7 +2926,7 @@ input, select, textarea {
 		border-radius: 5px;
 		border: 0;
 		box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
-		color: #ffffff !important;
+		color: #2B3140 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-family: Raleway, Helvetica, sans-serif;
@@ -3093,7 +3136,7 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
 		background-color: rgba(53, 56, 73, 0.95);
-		height: 4em;
+		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
 		padding: 0 1.25em;
@@ -3298,6 +3341,7 @@ input, select, textarea {
 			transition: opacity 0.35s ease, transform 0.35s ease;
 			-webkit-overflow-scrolling: touch;
 			background: #4c5c96;
+			background: #ffffff;
 			border-radius: 5px;
 			display: block;
 			max-width: 100%;
@@ -3777,19 +3821,19 @@ input, select, textarea {
 			}
 
 		.wrapper.spotlight {
-			background-color: #4c5c96;
+			background-color: #ffffff;
 		}
 
 			.wrapper.spotlight:before, .wrapper.spotlight:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%234c5c96%3B' /%3E%3C/svg%3E");
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23ffffff%3B' /%3E%3C/svg%3E");
 			}
 
 			.wrapper.spotlight:before {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+				box-shadow: inset 0 -1px 0 0 #ffffff, 0 1px 0 0 #ffffff;
 			}
 
 			.wrapper.spotlight:after {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+				box-shadow: inset 0 -1px 0 0 #ffffff, 0 1px 0 0 #ffffff;
 			}
 
 			.wrapper.spotlight .inner {
@@ -3808,15 +3852,15 @@ input, select, textarea {
 			}
 
 			.wrapper.spotlight .image {
-				border-radius: 100%;
+
 				margin: 0 3em 2em 0;
-				width: 22em;
+				width: 40em;
 				overflow: hidden;
 				-ms-flex: 1;
 			}
 
 				.wrapper.spotlight .image img {
-					border-radius: 100%;
+
 					width: 100%;
 				}
 
