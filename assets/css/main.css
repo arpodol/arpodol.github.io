@@ -179,7 +179,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #2B3140 !important;
+			color: #5f6984 !important;
 		}
 
 		a.special:not(.button) {
@@ -2694,7 +2694,7 @@ canvas {
     display: block;
     position: absolute;
     right: 1.5em;
-    top: .2em;
+    top: 0;
     z-index: 30;
   }
 	ul.icons {
@@ -3043,7 +3043,7 @@ canvas {
 			input[type="button"],
 			button,
 			.button {
-				
+
 			}
 
 		}
@@ -4095,7 +4095,7 @@ canvas {
 		#footer .inner .copyright {
 			border-top: solid 2px rgba(255, 255, 255, 0.125);
 			list-style: none;
-			margin: 4em 0 2em 0;
+			margin: 1em 0 2em 0;
 			padding: 2em 0 0 0;
 			width: 100%;
 		}
@@ -4158,7 +4158,7 @@ canvas {
 				}
 
 				#footer .inner .copyright {
-					margin: 4em 0 2em 0;
+					margin: 1em 0 2em 0;
 				}
 
 	}
